@@ -24,10 +24,6 @@ Registry:
   ide.experimental.ui=true
   i18n.locale=
 
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
 ## Authors
 
 Armondo Lopez [@debugtherug](dr.debugging@gmail.com]
