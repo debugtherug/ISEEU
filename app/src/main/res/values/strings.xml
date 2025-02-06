@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ISEEU</string>
+    <string name="action_go">Go</string>
+    <string name="ai_chatbot_title">Ai Chatbot</string>
+    <string name="label_prompt">Message Ai</string>
+    <string name="prompt_placeholder">""</string>
+    <string name="image1_description">absent minded</string>
+    <string name="image2_description">angry</string>
+    <string name="image3_description">bored</string>
+    <string name="image4_description">brave</string>
+    <string name="image5_description">confused</string>
+    <string name="image6_description">disappointed</string>
+    <string name="image7_description">disgusted</string>
+    <string name="image8_description">embarassed</string>
+    <string name="image9_description">excited</string>
+    <string name="image10_description">frustrated</string>
+    <string name="image11_description">happy</string>
+    <string name="image12_description">helpful</string>
+    <string name="image13_description">impatient</string>
+    <string name="image14_description">jealous</string>
+    <string name="image15_description">lonely</string>
+    <string name="image16_description">nervous</string>
+    <string name="image17_description">proud</string>
+    <string name="image18_description">sad</string>
+    <string name="image19_description">scared</string>
+    <string name="image20_description">shy</string>
+    <string name="image21_description">silly</string>
+    <string name="image22_description">sorry</string>
+    <string name="image23_description">surprised</string>
+    <string name="image24_description">thankful</string>
+    <string name="image25_description">thoughtful</string>
+    <string name="image26_description">tired</string>
+    <string name="image27_description">unkind</string>
+    <string name="image28_description">worried</string>
+    <string name="results_placeholder">(Results will appear here)</string>
+    <string name="select_emotion_prompt">How are you feeling today?</string>
+</resources>

@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:id="@+id/mainLayout">
+
+    <!-- Emotion Text -->
+    <TextView
+        android:id="@+id/emotionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emotion"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+    <!-- Emotion Image -->
+    <ImageView
+        android:id="@+id/emotionImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Emotion Image"/>
+
+    <!-- Score Text (Initially Hidden) -->
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"/>
+
+    <!-- Container for Correct Emotions (Initially Hidden) -->
+    <LinearLayout
+        android:id="@+id/correctEmotionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <!-- Container for Incorrect Emotions (Initially Hidden) -->
+    <LinearLayout
+        android:id="@+id/incorrectEmotionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <!-- Timer Text -->
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 30"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+    <!-- Horizontal Layout for Correct and Incorrect Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="40dp">
+
+        <!-- Incorrect Button -->
+        <Button
+            android:id="@+id/incorrectButton"
+            android:layout_width="50dp"
+            android:layout_height="111dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_red"
+            android:padding="12dp"
+            android:text="Incorrect"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <!-- Correct Button -->
+        <Button
+            android:id="@+id/correctButton"
+            android:layout_width="50dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_green"
+            android:padding="12dp"
+            android:text="Correct"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- End Game Button -->
+    <Button
+        android:id="@+id/endGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Game"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded_darkpink"
+        android:layout_alignParentBottom="true" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/endGameButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_round_darkpink2"
+        android:text="Back" />
+
+</LinearLayout>

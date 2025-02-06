@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How are you feeling today?"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="normal"
+        android:fontFamily="@font/myriad_pro_regular"/>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:dateTextAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <Spinner
+        android:id="@+id/emotionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="85dp"
+        android:layout_marginTop="450dp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/emotionImageView"
+        android:layout_width="150dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="525dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/my_emotions" /> <!-- Set a default image initially -->
+
+
+    <!-- Back to WelcomeActivity Button -->
+    <Button
+        android:id="@+id/back_welcome_Button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_rounded_darkpink"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
