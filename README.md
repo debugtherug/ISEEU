@@ -1,6 +1,6 @@
 # README PLACEHOLDER TEMPLATE (COMPLETE THIS LATER)
 
-# Project Title
+# ISEEU
 
 Simple overview of use/purpose.
 
