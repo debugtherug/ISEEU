@@ -2,57 +2,43 @@
 
 # ISEEU
 
-Simple overview of use/purpose.
-
 ## Description
 
-An in-depth paragraph about your project and overview of use.
-
-## Getting Started
+ISEEU is an adroid application meant to serve as a companion app Empower Empathy. It is meant to provide a supportive and helpful environment for users while also maintaining the same level of fun that can be found in popular games like Heads Up!
 
 ### Dependencies
+
+This project was run using the following version of android studio:
+
+Android Studio Ladybug | 2024.2.1 Patch 1
+Build #AI-242.23339.11.2421.12483815, built on October 10, 2024
+Runtime version: 21.0.3+-12282718-b509.11 amd64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+Toolkit: sun.awt.windows.WToolkit
+Windows 10.0
+Kotlin plugin: K2 mode (Beta)
+GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+Memory: 2048M
+Cores: 8
+Registry:
+  ide.experimental.ui=true
+  i18n.locale=
+
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Armondo Lopez [@debugtherug](dr.debugging@gmail.com]
+Christopher Loi
+Harut
+Valentina
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+    * Initial port from old GitHub account
 
 ## Acknowledgments
 
