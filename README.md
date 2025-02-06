@@ -27,6 +27,7 @@ Registry:
 ## Authors
 
 Armondo Lopez [@debugtherug](dr.debugging@gmail.com]
+
 Christopher Loi
 Harut
 Valentina
